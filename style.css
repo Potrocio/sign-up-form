@@ -107,3 +107,22 @@ label {
 a {
     color: rgb(66, 100, 66);
 }
+
+input {
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+}
+
+input:invalid {
+    border: 2px solid rgb(235, 95, 95);
+}
+
+input:valid {
+    border: 2px solid rgb(116, 168, 116);
+}
+
+.form-content input:focus {
+    border: 2px solid rgb(75, 74, 74);
+}
+
